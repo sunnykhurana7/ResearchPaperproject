@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	font:"Times New Roman", Times, serif;
+	font-size:12px;
+	width:100%;
+	overflow-x:hidden;
+}
+
+.container{
+	 margin:0 auto;
+	 width:1000px;
+	 
+}
+
+.header{
+	width:100%;
+	color:#FFF;
+	font:"Times New Roman", Times, serif;
+	font-size:40px;
+	padding-top:15px;
+	padding-bottom:15px;
+	background:#314d68;
+}
+
+
+.box{
+	width:430px;
+	height:420px;
+	background:#999;
+	margin:0 auto;	
+	border-radius:5px;
+	margin-top:98px;
+}
+
+.box img{
+	text-align:center;
+	padding-left:155px;
+	margin-top:-40px;
+}
+
+.box p{
+	font:"Times New Roman", Times, serif;
+	font-size:30px;
+	color:#000;
+	padding-left:150px;
+}
+
+.form1{
+	width:345px;
+}
+input[type=text]{
+	width:340px;
+	height:45px;
+	margin-left:44px;
+	float:left;
+	direction:block;
+	margin-bottom:28px;
+	font-size:30px;
+}
+
+input[type=password]{
+	width:340px;
+	height:45px;
+	margin-left:44px;
+	float:left;
+	direction:block;
+	margin-bottom:28px;
+	font-size:30px;
+}
+.button {
+      background:#21a957 repeat-x;
+     width:340px;
+	height:45px;
+	margin-left:44px;
+	float:left;
+	direction:block;
+	margin-bottom:28px;
+	font-size:30px;
+  cursor:pointer;
+ }
+ .button:hover {
+  background-color:rgba(255,204,0,0.8);
+ }
+::-webkit-input-placeholder {
+	
+   font-size:15px;
+  font:"Times New Roman", Times, serif;
+ text-transform: uppercase;
+ padding-top:10px;
+ 
+}
+
+.footer{
+	width:100%;
+	background:#314d68;
+	padding-top:7px;
+	padding-bottom:7px;
+	color:#FFF;
+	font-size:18px;
+	font-family:"Times New Roman", Times, serif;
+	margin-top:40px;
+	
+}
+
+
+
+
+.backToTop{
+	position:fixed;
+	bottom:10px;
+	cursor:pointer;
+	right:0;
+}
+
+
+.footer{
+    width:100%;
+    background:#314d68;
+    padding-top:7px;
+    padding-bottom:7px;
+    color:#FFF;
+    font-size:20px;
+    font-family:"Times New Roman", Times, serif;
+    margin-top:40px;
+    
+}

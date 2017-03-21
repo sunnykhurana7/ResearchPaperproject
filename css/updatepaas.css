@@ -1,0 +1,150 @@
+body{
+	margin:0;
+	font:"Times New Roman", Times, serif;
+	font-size:12px;
+	width:100%;
+	
+}
+
+.container{
+	 margin:0 auto;
+	 width:1000px;
+	 
+}
+
+.header{
+	width:100%;
+	color:#FFF;
+	font:"Times New Roman", Times, serif;
+	font-size:40px;
+	padding-top:15px;
+	padding-bottom:15px;
+	background:#314d68;
+}
+
+
+
+.message{
+	font:"Times New Roman", Times, serif;
+	font-size:18px;
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+	margin-top:5px;
+	text-transform:uppercase;
+}
+
+
+
+
+.anchor{
+    float:right;
+}
+
+
+.anchor a{
+     font-family:"Times New Roman", Times, serif;
+     color:#FFF;
+     font-size:30px;
+     text-decoration:none;
+     border-bottom :2px solid red;
+     padding-left:2px;
+     padding-right:2px;
+     text-transform: capitalize;
+} 
+
+
+
+.box1{
+	width:458px;
+	height:465px;
+	background:#999999;
+	margin:0 auto;
+	margin-top:156px;
+	font:"Times New Roman", Times, serif;
+	color:#FFF;
+	font-size:36px;
+	text-transform:uppercase;
+	border:1px solid #314d68;
+	
+}
+
+.up{
+	font:"Times New Roman", Times, serif;
+	font-size:24px;
+	color:black;
+	font-weight:bold;
+	margin-top:63px;
+	margin-left:67px;
+	margin-bottom:93px;
+}
+
+.form2{
+	width:408px;
+	margin:0;
+}
+
+input[type=password].old{
+	margin-top:93px;
+}
+
+
+input[type=password] {
+	width:408px;
+	height:42px;
+	  margin-left: -38px;
+	float:left;
+	direction:block;
+	margin-bottom:28px;
+	font-size:30px;
+	border:1px solid #000;
+	background:#3f3f3f;
+	color:#FFF;
+}
+
+::-webkit-input-placeholder {
+	
+   font-size:24px;
+  font:"Times New Roman", Times, serif;
+ text-transform: uppercase;
+ padding-top:10px;
+ color:#FFF;
+ font-weight:bold;
+}
+
+input[type="submit"] {
+	width:408px;
+	height:42px;
+	  margin-left: -38px;
+	float:left;
+	direction:block;
+	margin-bottom:28px;
+	font-size:30px;
+	background:#d2d91c;
+	color:#000;
+	margin-top:80px;
+	text-transform:uppercase;
+	cursor:pointer;
+	
+}
+
+
+.backToTop{
+	position:fixed;
+	bottom:10px;
+	cursor:pointer;
+	right:0;
+}
+
+
+.footer{
+    width:100%;
+    background:#314d68;
+    padding-top:7px;
+    padding-bottom:7px;
+    color:#FFF;
+    font-size:20px;
+    font-family:"Times New Roman", Times, serif;
+    margin-top:40px;
+    
+}

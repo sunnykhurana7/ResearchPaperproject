@@ -1,0 +1,104 @@
+@charset "utf-8";
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	font:"Times New Roman", Times, serif;
+	font-size:12px;
+	width:100%;
+	overflow-x:hidden;
+}
+
+.container{
+	 margin:0 auto;
+	 width:1000px;
+	 
+}
+
+.header{
+	width:100%;
+	color:#FFF;
+	font:"Times New Roman", Times, serif;
+	font-size:40px;
+	padding-top:15px;
+	padding-bottom:15px;
+	background:#314d68;
+}
+
+table{
+	margin-top:20px;
+	width:900px;
+	margin-left:50px;
+	
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	font:"Times New Roman", Times, serif;
+	font-size:24px;
+}
+
+table a{
+	 text-decoration:none;
+	 padding-left:51px;
+}
+
+
+table a:hover{
+	color:#F00;
+}
+
+th, td {
+    padding: 5px;
+}
+
+
+form{
+	margin-top:20px;
+}
+.delete{
+	 float:right;
+	 text-decoration:none;
+	 font:"Times New Roman", Times, serif;
+	 font-size:16px;
+	 margin-right:40px;
+	 border:1px solid #000;
+	 margin-top:20px;
+	 padding:2px;
+	 
+}
+
+.ho a:hover{
+	
+	color:#009;
+}
+
+
+.backToTop{
+	position:fixed;
+	bottom:10px;
+	cursor:pointer;
+	right:0;
+}
+
+
+.footer{
+	width:100%;
+	background:#314d68;
+	padding-top:7px;
+	padding-bottom:7px;
+	color:#FFF;
+	font-size:20px;
+	font-family:"Times New Roman", Times, serif;
+	margin-top:40px;
+	float:left;
+	
+}
+
+
+
+
+/* CSS Document */
+
